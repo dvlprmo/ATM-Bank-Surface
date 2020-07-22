@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.bigPic{
+    margin-top: 90px;
+}
+#screen__pin {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.pinPgae{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+.pinBtn{
+    height: 90px;
+    width: 190px;
+    font-size: large;
+    font-weight: bolder;
+    border: 0.5px solid black;
+   
+}
+.threeBtnP{
+    display: grid;
+    grid-template: 1fr;
+    margin-left: 10px;
+    
+}
+.image{
+    margin-left: 100px;
+    padding: 150px;
+    background-color: darkblue;
+  
+}
+.keysR{
+    width: 190px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+.keysG{
+    width: 190px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+.keysY{
+    width: 190px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+.inContainer {
+    margin-left: 195px;
+
+}
+.butt{
+    width: 400px;
+    height: 50px;
+    border: 0.5px solid black;
+    font-size: large;
+    font-weight: bolder;
+}
+.steal{
+    color: red;
+
+}
+.red{
+    
+    border: 4px solid red ;
+    margin-top: 40px;
+}
+.yellow{
+    border: 4px solid orange;
+    margin-top: 40px;
+
+}
+.green{
+    border: 4px solid green;
+    margin-top: 40px;
+}
+.dashbord{
+    margin-left: 200px;
+}
+.sPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: darkblue;
+}
+.balance{
+    font-size: 100px;
+     color: white;
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    background-color: orange;
+}
+.dashbord{
+    font-size: 30px;
+}
+.bala{
+    font-size: 35px;
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+
+}
+.ProContianer{
+    display: grid;
+    grid-template: 1fr;
+    margin: 10px;
+    gap: 10px;
+
+
+}
+.withD{
+    height: 120px;
+    width: 300px;
+    font-size: 35px;
+    
+    
+
+}
+.deptA{
+    height: 120px;
+    width: 300px;
+    font-size: 35px;
+}
+h3{
+    margin-top: 50px;
+}
+.sar{
+    color: white;
+    font-size: 45px;
+    text-align: center; 
+}
+.amount{
+    font-size: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.morning{
+    color: white;
+}
+.timer{
+    font-size: 25px;
+    text-align: right;
+    margin-right: 200px;
+}
+.greet{
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;  
+}
+.history{
+    text-align: right;
+    margin-right: 200px;
+    font-size: 25px;
+
+}
+.pinPgaeWithD{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 50px;
+    margin-left: 750px;
+    padding-bottom: 100px;
+    float: left;
+    
+}
+.pinBtnWD{
+    
+    
+    height: 90px;
+    width: 100px;
+    font-size: large;
+    font-weight: bolder;
+    border: 0.5px solid black;   
+}
+.pinPgaeD{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 50px;
+    margin-left: 750px;
+    padding-bottom: 100px;
+    float: left;
+
+}
+.pinBtnDD{
+    height: 90px;
+    width: 100px;
+    font-size: large;
+    font-weight: bolder;
+    border: 0.5px solid black;
+    
+}
+.textBox{
+    margin-left: 750px;
+   
+  
+}
+.widthAmot{
+    width: 310px;
+    height: 60px;
+    border: 0.5px solid black;
+}
+.depAmot{
+    width: 310px;
+    height: 60px;
+    border: 0.5px solid black;
+
+}
+.getBack{
+    color: red;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+}
+.getBackDD{
+    color: red;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+
+}
+.back{
+    color: red;
+    display: flex;
+    margin-top: 600px;
+    margin-left: 200px;
+}
+.bigText h3{
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 110px;
+}
+.bigTextDD h3{
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 110px;
+}
+
+.entering{
+    margin-left: 1080px;
+    margin-top: 100px;
+}
+.enter{
+    height: 40px;
+    width: 250px; 
+    margin-left: 480px;
+    margin-bottom: 200px;
+    background-color: darkblue;
+    color: white;
+}
+.enterD{
+    height: 40px;
+    width: 250px; 
+    margin-left: 480px;
+    margin-bottom: 200px;
+    background-color: darkblue;
+    color: white;
+}
+
+.balancePage{
+    width: 1200px;
+    height: 500px;
+    margin-bottom: 150px;
+    padding-top: 80px;
+  
+    margin-left: 350px;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.VBS{
+    margin-left: 350px;
+    font-size: 30px;
+
+    
+}
+.getBackBB{
+    color: red;
+    background-color: red;
+    width: 110px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 900px;
+    border: 5px solid darkblue;
+}
+.yellowBox{
+    background-color: orange;
+    float: right;
+    width: 350px;
+    margin-right: 150px;
+    margin-top: 40px;
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+    
+    
+}
+
+.timeContainerbb{
+    margin-left: 150px;
+    margin-right: 170px;
+}
+.timerbb{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 370px;
+}
+.historybb{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 370px;
+}
+.texting{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid darkblue;
+
+}
